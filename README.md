@@ -1,0 +1,1 @@
+.net core 2 demo
