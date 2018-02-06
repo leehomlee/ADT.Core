@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Empty", "ADT.Core.Empty\ADT.Core.Empty.csproj", "{DD0C4343-EB55-4300-8366-59EDE00071B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Middleware", "ADT.Core.Middleware\ADT.Core.Middleware.csproj", "{D0481232-BB56-423C-B24E-1C47EFB5376F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Middleware", "ADT.Core.Middleware\ADT.Core.Middleware.csproj", "{D0481232-BB56-423C-B24E-1C47EFB5376F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Middleware.Options", "ADT.Core.Middleware.Options\ADT.Core.Middleware.Options.csproj", "{357FC150-CC2B-4C31-99E9-F473EE55312F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D0481232-BB56-423C-B24E-1C47EFB5376F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0481232-BB56-423C-B24E-1C47EFB5376F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0481232-BB56-423C-B24E-1C47EFB5376F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{357FC150-CC2B-4C31-99E9-F473EE55312F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{357FC150-CC2B-4C31-99E9-F473EE55312F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{357FC150-CC2B-4C31-99E9-F473EE55312F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{357FC150-CC2B-4C31-99E9-F473EE55312F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
