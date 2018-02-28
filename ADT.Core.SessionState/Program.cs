@@ -7,32 +7,19 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using Serilog;
-/// <summary>
-/// Serilog: https://serilog.net/
-/// Serilog Sinks: https://github.com/serilog/serilog/wiki/Provided-Sinks
-/// Seq: https://getseq.net/
-/// </summary>
-namespace ADT.Core.Logging.Serilog
+
+namespace ADT.Core.SessionState
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            Log.Logger = new LoggerConfiguration()
-                .Enrich.WithProperty("ApiVersion", "1.2.5000")
-                .WriteTo.LiterateConsole()
-                //.WriteTo.Seq("http://localhost:48464")
-                .CreateLogger()
-                .ForContext<HelloWorldMiddleware2>();
-
             BuildWebHost(args).Run();
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-                .UseSerilog()
                 .Build();
     }
 }
