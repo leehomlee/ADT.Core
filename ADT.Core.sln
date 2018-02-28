@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Logging.Serilog", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.SessionState", "ADT.Core.SessionState\ADT.Core.SessionState.csproj", "{612B66C3-C7F6-405F-BD88-250AC1BA1D65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.FileProviders", "ADT.Core.FileProviders\ADT.Core.FileProviders.csproj", "{BB1CE9C8-CED4-4DBD-9E1D-DF68652F0FDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{612B66C3-C7F6-405F-BD88-250AC1BA1D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{612B66C3-C7F6-405F-BD88-250AC1BA1D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{612B66C3-C7F6-405F-BD88-250AC1BA1D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1CE9C8-CED4-4DBD-9E1D-DF68652F0FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1CE9C8-CED4-4DBD-9E1D-DF68652F0FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1CE9C8-CED4-4DBD-9E1D-DF68652F0FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1CE9C8-CED4-4DBD-9E1D-DF68652F0FDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
