@@ -21,13 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.StaticFile", "ADT.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.ErrorHandling", "ADT.Core.ErrorHandling\ADT.Core.ErrorHandling.csproj", "{DAABAACA-7EA5-4332-8F2B-C6F9779E7C05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Logging", "ADT.Core.Loggin\ADT.Core.Logging.csproj", "{1AB90AA2-EC8F-4A2C-94C1-FF412FCC9A81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Logging", "ADT.Core.Loggin\ADT.Core.Logging.csproj", "{1AB90AA2-EC8F-4A2C-94C1-FF412FCC9A81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Logging.Serilog", "ADT.Core.Logging.Serilog\ADT.Core.Logging.Serilog.csproj", "{FED1DFC2-A95A-491D-AB6E-F61FA07D793A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Logging.Serilog", "ADT.Core.Logging.Serilog\ADT.Core.Logging.Serilog.csproj", "{FED1DFC2-A95A-491D-AB6E-F61FA07D793A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.SessionState", "ADT.Core.SessionState\ADT.Core.SessionState.csproj", "{612B66C3-C7F6-405F-BD88-250AC1BA1D65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.SessionState", "ADT.Core.SessionState\ADT.Core.SessionState.csproj", "{612B66C3-C7F6-405F-BD88-250AC1BA1D65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.FileProviders", "ADT.Core.FileProviders\ADT.Core.FileProviders.csproj", "{BB1CE9C8-CED4-4DBD-9E1D-DF68652F0FDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.FileProviders", "ADT.Core.FileProviders\ADT.Core.FileProviders.csproj", "{BB1CE9C8-CED4-4DBD-9E1D-DF68652F0FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.UrlRewriting", "ADT.Core.UrlRewriting\ADT.Core.UrlRewriting.csproj", "{4D3F40A5-4DC4-4EB1-A344-39F4F1B41F91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{BB1CE9C8-CED4-4DBD-9E1D-DF68652F0FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB1CE9C8-CED4-4DBD-9E1D-DF68652F0FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB1CE9C8-CED4-4DBD-9E1D-DF68652F0FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3F40A5-4DC4-4EB1-A344-39F4F1B41F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3F40A5-4DC4-4EB1-A344-39F4F1B41F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3F40A5-4DC4-4EB1-A344-39F4F1B41F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3F40A5-4DC4-4EB1-A344-39F4F1B41F91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
