@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.SessionState", "AD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.FileProviders", "ADT.Core.FileProviders\ADT.Core.FileProviders.csproj", "{BB1CE9C8-CED4-4DBD-9E1D-DF68652F0FDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.UrlRewriting", "ADT.Core.UrlRewriting\ADT.Core.UrlRewriting.csproj", "{4D3F40A5-4DC4-4EB1-A344-39F4F1B41F91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.UrlRewriting", "ADT.Core.UrlRewriting\ADT.Core.UrlRewriting.csproj", "{4D3F40A5-4DC4-4EB1-A344-39F4F1B41F91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.Routing", "ADT.Core.Mvc.Routing\ADT.Core.Mvc.Routing.csproj", "{EEFE2CD0-9842-4C6D-9D65-72E7BDEF6166}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{4D3F40A5-4DC4-4EB1-A344-39F4F1B41F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D3F40A5-4DC4-4EB1-A344-39F4F1B41F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D3F40A5-4DC4-4EB1-A344-39F4F1B41F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEFE2CD0-9842-4C6D-9D65-72E7BDEF6166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFE2CD0-9842-4C6D-9D65-72E7BDEF6166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFE2CD0-9842-4C6D-9D65-72E7BDEF6166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFE2CD0-9842-4C6D-9D65-72E7BDEF6166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
