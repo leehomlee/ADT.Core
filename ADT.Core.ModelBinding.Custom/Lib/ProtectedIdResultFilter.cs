@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ADT.Core.ModelBinding.Custom.Lib
+namespace ADT.Core.Mvc.ModelBinding.Custom.Lib
 {
     public class ProtectedIdResultFilter : IResultFilter
     {

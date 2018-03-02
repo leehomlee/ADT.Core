@@ -1,10 +1,10 @@
-﻿using ADT.Core.ModelBinding.Custom.Lib;
+﻿using ADT.Core.Mvc.ModelBinding.Custom.Lib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ADT.Core.ModelBinding.Custom.Models.Home
+namespace ADT.Core.Mvc.ModelBinding.Custom.Models.Home
 {
     public class MovieInputModel
     {

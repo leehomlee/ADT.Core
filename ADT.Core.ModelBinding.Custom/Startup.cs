@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace ADT.Core.ModelBinding.Custom
+namespace ADT.Core.Mvc.ModelBinding.Custom
 {
     public class Startup
     {

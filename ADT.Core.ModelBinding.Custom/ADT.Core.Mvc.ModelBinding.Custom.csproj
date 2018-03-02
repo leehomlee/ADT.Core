@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>ADT.Core.Mvc.ModelBinding.Custom</AssemblyName>
+    <RootNamespace>ADT.Core.Mvc.ModelBinding.Custom</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

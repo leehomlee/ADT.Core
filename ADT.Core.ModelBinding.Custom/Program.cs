@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace ADT.Core.ModelBinding.Custom
+namespace ADT.Core.Mvc.ModelBinding.Custom
 {
     public class Program
     {

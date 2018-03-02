@@ -1,4 +1,4 @@
-﻿namespace ADT.Core.ModelBinding.Custom.Lib
+﻿namespace ADT.Core.Mvc.ModelBinding.Custom.Lib
 {
     public interface IProtectedIdAttribute
     {

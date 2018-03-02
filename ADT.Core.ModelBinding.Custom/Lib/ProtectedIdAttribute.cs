@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ADT.Core.ModelBinding.Custom.Lib
+namespace ADT.Core.Mvc.ModelBinding.Custom.Lib
 {
     public class ProtectedIdAttribute : Attribute, IProtectedIdAttribute
     {

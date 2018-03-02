@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using ADT.Core.ModelBinding.Custom.Models.Home;
+using ADT.Core.Mvc.ModelBinding.Custom.Models.Home;
 
-namespace ADT.Core.ModelBinding.Custom.Controllers
+namespace ADT.Core.Mvc.ModelBinding.Custom.Controllers
 {
     public class HomeController : Controller
     {

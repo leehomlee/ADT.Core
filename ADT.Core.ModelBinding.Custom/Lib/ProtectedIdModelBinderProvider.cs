@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 using System.Linq;
 
-namespace ADT.Core.ModelBinding.Custom.Lib
+namespace ADT.Core.Mvc.ModelBinding.Custom.Lib
 {
     public class ProtectedIdModelBinderProvider : IModelBinderProvider
     {
