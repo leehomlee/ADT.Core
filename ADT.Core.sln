@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Mvc.ModelBinding",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Mvc.ModelBinding.Custom", "ADT.Core.ModelBinding.Custom\ADT.Core.Mvc.ModelBinding.Custom.csproj", "{FC6F112C-5A29-4CC6-8FE3-43833540826B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.ModelValidation", "ADT.Core.Mvc.ModelValidation\ADT.Core.Mvc.ModelValidation.csproj", "{BF210749-B138-42CF-9998-449C2A4B7AB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{FC6F112C-5A29-4CC6-8FE3-43833540826B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC6F112C-5A29-4CC6-8FE3-43833540826B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC6F112C-5A29-4CC6-8FE3-43833540826B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF210749-B138-42CF-9998-449C2A4B7AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF210749-B138-42CF-9998-449C2A4B7AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF210749-B138-42CF-9998-449C2A4B7AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF210749-B138-42CF-9998-449C2A4B7AB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
