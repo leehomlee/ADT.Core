@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.Razor", "ADT.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.DependencyInjection", "ADT.Core.Mvc.DependencyInjection\ADT.Core.Mvc.DependencyInjection.csproj", "{F78BBA1A-D917-4859-9722-8F0ABD4B6A2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.Layout", "ADT.Core.Mvc.Layout\ADT.Core.Mvc.Layout.csproj", "{41B225A1-C568-4B22-A686-ACEB2275DAAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{F78BBA1A-D917-4859-9722-8F0ABD4B6A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F78BBA1A-D917-4859-9722-8F0ABD4B6A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F78BBA1A-D917-4859-9722-8F0ABD4B6A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41B225A1-C568-4B22-A686-ACEB2275DAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B225A1-C568-4B22-A686-ACEB2275DAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B225A1-C568-4B22-A686-ACEB2275DAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B225A1-C568-4B22-A686-ACEB2275DAAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
