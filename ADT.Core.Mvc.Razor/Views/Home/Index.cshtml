@@ -1,0 +1,78 @@
+﻿
+@{ 
+    var birthDate = new DateTime(2011, 3, 1);
+}
+
+<strong>Hello MVC Razor</strong>
+
+<p>your were born @birthDate.ToString("yyyy-MM-dd")</p>
+
+<p>you is about @((DateTime.Now - birthDate).Days / 365) years old</p>
+
+<p>@("<strong>Hello World</strong>")</p>
+
+<p>@Html.Raw("<strong>james@bond.com</strong>")</p>
+
+@{ 
+    var isHungry = false;
+    var gender = 2;
+    var technology = "asp.net core mvc";
+    IEnumerable<string> friends = new[] { "zhangsan","lisi","wangwu" };
+    var count = technology.Length;
+}
+
+@if (isHungry)
+{
+    <p>I'm Hungry!</p>
+}
+else
+{
+    <p>I'm full</p>
+}
+
+@switch (gender)
+{
+    case 0:
+        <p>Male</p>
+        break;
+    case 1:
+        <p>Female</p>
+        break;
+    default:
+        <p>gg</p>
+        break;
+}
+
+@for (int i = 0; i < technology.Length; i++)
+{
+    // <text> because HTML being produced is not inside a tag
+    <text>@technology[i].ToString().ToUpper()</text>
+}
+
+
+<ul>
+    @foreach (var item in friends)
+    {
+        <li>@item</li>
+    }
+</ul>
+
+@do
+{
+    <text>@technology[count-1].ToString().ToUpper()</text>
+    count -= 1;
+} while (count > 0);
+
+@try
+{
+    var a = 1;
+    var b = 0;
+    var result = a / b;
+}
+catch (Exception ex)
+{
+    <p>@ex.Message</p>
+}
+
+<a href="home/aboutme">AboutMe</a>
+

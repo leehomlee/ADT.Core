@@ -1,0 +1,5 @@
+﻿@using ADT.Core.Mvc.Razor.Models.Home
+@model AboutViewModel
+@inject IGreeter GreetService
+
+<p>@GreetService.Greet(Model.Firstname,Model.Surname) !</p>
