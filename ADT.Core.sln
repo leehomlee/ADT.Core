@@ -41,13 +41,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Mvc.ModelValidatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Mvc.ModelValidation.Remote", "ADT.Core.Mvc.ModelValidation.Remote\ADT.Core.Mvc.ModelValidation.Remote.csproj", "{7380C442-5FE6-4D3E-98A7-14CB307494E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.Razor", "ADT.Core.Mvc.Razor\ADT.Core.Mvc.Razor.csproj", "{AAFD8DB8-F3B7-4714-866D-DC6B0E981FF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Mvc.Razor", "ADT.Core.Mvc.Razor\ADT.Core.Mvc.Razor.csproj", "{AAFD8DB8-F3B7-4714-866D-DC6B0E981FF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.DependencyInjection", "ADT.Core.Mvc.DependencyInjection\ADT.Core.Mvc.DependencyInjection.csproj", "{F78BBA1A-D917-4859-9722-8F0ABD4B6A2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Mvc.DependencyInjection", "ADT.Core.Mvc.DependencyInjection\ADT.Core.Mvc.DependencyInjection.csproj", "{F78BBA1A-D917-4859-9722-8F0ABD4B6A2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.Layout", "ADT.Core.Mvc.Layout\ADT.Core.Mvc.Layout.csproj", "{41B225A1-C568-4B22-A686-ACEB2275DAAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Mvc.Layout", "ADT.Core.Mvc.Layout\ADT.Core.Mvc.Layout.csproj", "{41B225A1-C568-4B22-A686-ACEB2275DAAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.PartialViews", "ADT.Core.Mvc.PartialViews\ADT.Core.Mvc.PartialViews.csproj", "{FDB267E2-0352-452C-AC17-CF5BC39AF091}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Mvc.PartialViews", "ADT.Core.Mvc.PartialViews\ADT.Core.Mvc.PartialViews.csproj", "{FDB267E2-0352-452C-AC17-CF5BC39AF091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.ViewComponents", "ADT.Core.Mvc.ViewComponents\ADT.Core.Mvc.ViewComponents.csproj", "{35776A87-F384-4B3A-8C4E-DCC2389CB7F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{FDB267E2-0352-452C-AC17-CF5BC39AF091}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDB267E2-0352-452C-AC17-CF5BC39AF091}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDB267E2-0352-452C-AC17-CF5BC39AF091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35776A87-F384-4B3A-8C4E-DCC2389CB7F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35776A87-F384-4B3A-8C4E-DCC2389CB7F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35776A87-F384-4B3A-8C4E-DCC2389CB7F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35776A87-F384-4B3A-8C4E-DCC2389CB7F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
