@@ -49,9 +49,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Mvc.Layout", "ADT.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Mvc.PartialViews", "ADT.Core.Mvc.PartialViews\ADT.Core.Mvc.PartialViews.csproj", "{FDB267E2-0352-452C-AC17-CF5BC39AF091}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.ViewComponents", "ADT.Core.Mvc.ViewComponents\ADT.Core.Mvc.ViewComponents.csproj", "{35776A87-F384-4B3A-8C4E-DCC2389CB7F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Mvc.ViewComponents", "ADT.Core.Mvc.ViewComponents\ADT.Core.Mvc.ViewComponents.csproj", "{35776A87-F384-4B3A-8C4E-DCC2389CB7F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.Areas", "ADT.Core.Mvc.Areas\ADT.Core.Mvc.Areas.csproj", "{5E058958-4E78-429D-A84C-66BCE5EC8C25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Mvc.Areas", "ADT.Core.Mvc.Areas\ADT.Core.Mvc.Areas.csproj", "{5E058958-4E78-429D-A84C-66BCE5EC8C25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.TagHelpers", "ADT.Core.Mvc.TagHelpers\ADT.Core.Mvc.TagHelpers.csproj", "{ED67113B-277D-476A-BC13-7BAB3A0BE6BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{5E058958-4E78-429D-A84C-66BCE5EC8C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E058958-4E78-429D-A84C-66BCE5EC8C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E058958-4E78-429D-A84C-66BCE5EC8C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED67113B-277D-476A-BC13-7BAB3A0BE6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED67113B-277D-476A-BC13-7BAB3A0BE6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED67113B-277D-476A-BC13-7BAB3A0BE6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED67113B-277D-476A-BC13-7BAB3A0BE6BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
