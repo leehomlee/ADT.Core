@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Mvc.ModelValidatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.Razor", "ADT.Core.Mvc.Razor\ADT.Core.Mvc.Razor.csproj", "{AAFD8DB8-F3B7-4714-866D-DC6B0E981FF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.DependencyInjection", "ADT.Core.Mvc.DependencyInjection\ADT.Core.Mvc.DependencyInjection.csproj", "{F78BBA1A-D917-4859-9722-8F0ABD4B6A2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{AAFD8DB8-F3B7-4714-866D-DC6B0E981FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAFD8DB8-F3B7-4714-866D-DC6B0E981FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAFD8DB8-F3B7-4714-866D-DC6B0E981FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F78BBA1A-D917-4859-9722-8F0ABD4B6A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78BBA1A-D917-4859-9722-8F0ABD4B6A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78BBA1A-D917-4859-9722-8F0ABD4B6A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78BBA1A-D917-4859-9722-8F0ABD4B6A2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
