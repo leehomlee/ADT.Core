@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.DependencyInje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.Layout", "ADT.Core.Mvc.Layout\ADT.Core.Mvc.Layout.csproj", "{41B225A1-C568-4B22-A686-ACEB2275DAAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Mvc.PartialViews", "ADT.Core.Mvc.PartialViews\ADT.Core.Mvc.PartialViews.csproj", "{FDB267E2-0352-452C-AC17-CF5BC39AF091}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{41B225A1-C568-4B22-A686-ACEB2275DAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41B225A1-C568-4B22-A686-ACEB2275DAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41B225A1-C568-4B22-A686-ACEB2275DAAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB267E2-0352-452C-AC17-CF5BC39AF091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB267E2-0352-452C-AC17-CF5BC39AF091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB267E2-0352-452C-AC17-CF5BC39AF091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB267E2-0352-452C-AC17-CF5BC39AF091}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
