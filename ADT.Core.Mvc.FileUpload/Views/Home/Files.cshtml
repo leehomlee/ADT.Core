@@ -1,0 +1,12 @@
+﻿@model ADT.Core.Mvc.FileUpload.Models.Home.FilesViewModel
+
+<p>List of Files</p>
+
+<ul>
+    @foreach (var file in Model.Files)
+    {
+        <li>
+            <a asp-action="Download" asp-route-filename="@file.Name">@file.Name</a>
+        </li>
+    }
+</ul>
