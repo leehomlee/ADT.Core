@@ -67,7 +67,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Mvc.Filters", "ADT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Mvc.RazorPages", "ADT.Core.Mvc.RazorPages\ADT.Core.Mvc.RazorPages.csproj", "{60400430-6A34-4A0B-AFB1-03128C16F0BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Api.Crud", "ADT.Core.Api.Crud\ADT.Core.Api.Crud.csproj", "{1F8B6B1F-A784-4916-88E5-CBF141BFA06A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADT.Core.Api.Crud", "ADT.Core.Api.Crud\ADT.Core.Api.Crud.csproj", "{1F8B6B1F-A784-4916-88E5-CBF141BFA06A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.Core.Api.Paging", "ADT.Core.Api.Paging\ADT.Core.Api.Paging.csproj", "{C294480D-05D7-4782-8AD6-D727469BEAD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +209,10 @@ Global
 		{1F8B6B1F-A784-4916-88E5-CBF141BFA06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F8B6B1F-A784-4916-88E5-CBF141BFA06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F8B6B1F-A784-4916-88E5-CBF141BFA06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C294480D-05D7-4782-8AD6-D727469BEAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C294480D-05D7-4782-8AD6-D727469BEAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C294480D-05D7-4782-8AD6-D727469BEAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C294480D-05D7-4782-8AD6-D727469BEAD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
